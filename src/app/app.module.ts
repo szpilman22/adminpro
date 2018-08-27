@@ -8,6 +8,7 @@ import { APP_ROUTES } from './app.routes';
 // MODULOS
 import { PagesModule } from './pages/pages.module';
 import { SharedModule } from './shared/shared.module';
+import { ServiceModule } from './services/service.module';
 
 // COMPONENTES
 import { AppComponent } from './app.component';
@@ -26,7 +27,8 @@ import { RegisterComponent } from './login/register.component';
     APP_ROUTES,
     PagesModule,
     SharedModule,
-    FormsModule
+    FormsModule,
+    ServiceModule
   ],
 
   providers: [],
